@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./img/Nota\ 1.png);
+}
+
+.container{
+    background-color: #e4e4e4;
+    width: 70%;
+    height: 70%;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.containerNotes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.containerOdds{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:10px;
+    margin-left: 20px;
+}
+
+.Odds{
+    width: 60%;
+    height: 200px;
+    background-color: #5f7667;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.divFinalNote{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4%;
+}
+
+#finalNote{
+    width: 37%;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #d6cfd2;
+    text-align: center;
+    padding-top: 40px;
+    margin-left: 4%;
+}
+
+.ContainerResul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#result{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #008037;
+    font-size: 25px;
+    margin-left: 4%;
+}
+
+.btn{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4%;
+}
+
+.btnCalculate{
+    background-color: #8ABFA1;
+    padding: 20px;
+    width: 50%;
+    border-radius: 20px;
+    border: 0;
+}
+
+.btnCalculate:hover{
+    background-color: #9dd8b7;
+}
+
+.divNotes{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8%;
+    gap: 20px;
+}
+
+.titleFinalNote{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 3%;
+}
+
+.notes{
+    background-color: #ffff;
+    width: 25%;
+    height: 50px;
+    border-radius: 25px;
+    border: 0;
+    padding: 20px;
+}
+
+.textOdds{
+    width: 60%;
+    height: 50%;
+    margin-top: 40px;
+}

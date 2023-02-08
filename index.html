@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Calcular Notas</h1>
+        </header>
+
+        <main>
+            <div class="containerNotes">
+                <div class="divNotes">
+                    <input id="Note1" type="number" placeholder = "Nota 1" class="notes">
+                    <input id="Note2"  type="number" placeholder = "Nota 2" class="notes">
+                    <input id="Note3"  type="number" placeholder = "Nota 3" class="notes">
+                </div>
+                <div class="titleFinalNote">
+                    <h3>Nota Definitiva</h3>
+                </div>
+            </div>
+            <div class="containerOdds">
+                <div class="Odds">
+                    <h3>Posibilidades</h3>
+                    <div class="textOdds">
+                        <ul>
+                            <li><p id="toRecoverNote">Para recuperar</p></li>
+                            <li><p id="toWinNote">Para ganar</p></li>
+                            <li><p id="toWinHonorsNote">Para ganar con honores</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="divFinalNote">
+                    <p id="finalNote">0</p>
+                </div>
+            </div>
+            <div class="ContainerResul">
+                <p id="result">Resultado</p>
+                <div class="btn">
+                    <button class="btnCalculate">Calcular</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
